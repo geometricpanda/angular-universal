@@ -1,8 +1,7 @@
 <div class="border-bottom shadow mb-5 bg-danger">
   <header class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-xl-8 py-5 text-center">
-
+      <div class="col-12 col-md-10 col-xl-8 py-5">
 
         <h1 class="display-5 fw-bold text-white">
           Error 404 - Page Not Found
@@ -17,8 +16,13 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-xl-8">
       <p class="fs-4 fw-semibold">
-        This page shows how by using Angular wildcard routing and resolvers we
+        This page shows how by using Angular wildcard routing and an Auth Guard we
         can both serve a 404 page, and serve a HTTP 404 Status Code.
+      </p>
+      <p class="fs-6 fst-italic">
+        Please note that you'll only see a 404 Status Code when directly visiting this page,
+        it wont return when client side routing.
       </p>
     </div>
   </div>
+</div>
